@@ -1,0 +1,33 @@
+{
+  "name": "two-phase-commit-mock",
+  "version": "1.0.0",
+  "description": "A minimal mock implementation of the Two-Phase Commit (2PC) protocol in TypeScript — simulating distributed transaction coordination.",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "dev": "nodemon --watch src --exec ts-node src/index.ts",
+    "build": "tsc"
+  },
+  "keywords": [
+    "two-phase-commit",
+    "distributed-systems",
+    "typescript",
+    "software-engineering",
+    "transactions",
+    "coordinator",
+    "mock"
+  ],
+  "author": "Taha Shahid Alvi",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.7.7",
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^22.10.1",
+    "nodemon": "^3.1.9",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3"
+  }
+}
